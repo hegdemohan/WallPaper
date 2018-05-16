@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "171046523448",
+    "firebase_url": "https://wallpaper-e4d6d.firebaseio.com",
+    "project_id": "wallpaper-e4d6d",
+    "storage_bucket": "wallpaper-e4d6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171046523448:android:8de1ebb43e4f7034",
+        "android_client_info": {
+          "package_name": "com.mhegde.wallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171046523448-t9hojdhs40sn9oi0ok09hssqqpp6er4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mhegde.wallpaper",
+            "certificate_hash": "8f3302393745675881d88b03e5ff1d4e08303d66"
+          }
+        },
+        {
+          "client_id": "171046523448-cvp10moen906upj1u3vjc2f6si5drljl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mhegde.wallpaper",
+            "certificate_hash": "3d98b678126200c76a4cd4b179f56fad88a231b0"
+          }
+        },
+        {
+          "client_id": "171046523448-jp28cde26r3aeulmf8mnfh452vs3iiug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_fiiGtL9e8OACBOYMnqDYmOUkvCdI21Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171046523448-jp28cde26r3aeulmf8mnfh452vs3iiug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171046523448:android:e7c6f06405bf8c44",
+        "android_client_info": {
+          "package_name": "com.cipherScriptDevs.wallPaint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171046523448-bp6jle77tktjjcegivknniu4b6eilet7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cipherScriptDevs.wallPaint",
+            "certificate_hash": "3d98b678126200c76a4cd4b179f56fad88a231b0"
+          }
+        },
+        {
+          "client_id": "171046523448-jp28cde26r3aeulmf8mnfh452vs3iiug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_fiiGtL9e8OACBOYMnqDYmOUkvCdI21Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171046523448-jp28cde26r3aeulmf8mnfh452vs3iiug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171046523448:android:978c7d5a0dae4d39",
+        "android_client_info": {
+          "package_name": "com.cipherScriptDevs.backDrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171046523448-ts6mkqs71nic9i7cbn1qdbi36hl3e2fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cipherScriptDevs.backDrop",
+            "certificate_hash": "3d98b678126200c76a4cd4b179f56fad88a231b0"
+          }
+        },
+        {
+          "client_id": "171046523448-jp28cde26r3aeulmf8mnfh452vs3iiug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_fiiGtL9e8OACBOYMnqDYmOUkvCdI21Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171046523448-jp28cde26r3aeulmf8mnfh452vs3iiug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

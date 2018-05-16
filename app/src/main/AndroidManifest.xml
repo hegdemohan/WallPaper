@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cipherScriptDevs.backDrop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET"
+        tools:ignore="ProtectedPermissions"/>
+    <application
+        android:name="com.cipherScriptDevs.backDrop.AppController"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.cipherScriptDevs.backDrop.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cipherScriptDevs.backDrop.ViewImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.cipherScriptDevs.backDrop.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cipherScriptDevs.backDrop.FullScreenActivity"
+            android:label="@string/title_activity_full_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cipherScriptDevs.backDrop.FullScreenActivitySdCardImage"
+            android:label="FullScreenActivitySdCardImage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <service
+            android:name="com.cipherScriptDevs.backDrop.FloatWidgetService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="com.cipherScriptDevs.backDrop.WallpaperWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/wallpaper_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/floatingWidget"
+        android:icon="@drawable/ic_widgets_black_24dp"
+        android:title="@string/floating_widget_text">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/widget_settings">
+    </item>
+    <item
+        android:id="@+id/policy"
+        android:icon="@drawable/ic_policy_black_24dp"
+        android:title="@string/policy">
+    </item>
+    <item
+        android:id="@+id/rate"
+        android:icon="@drawable/ic_rate_us"
+        android:title="@string/rate_us">
+    </item>
+    <item
+        android:id="@+id/premium"
+        android:icon="@drawable/ic_gemstone_store"
+        android:title="@string/go_premium">
+    </item>
+    <item
+    android:title="@string/categories"
+    android:id="@+id/categories">
+        <menu>
+            <item
+                android:id="@+id/category_abstract"
+                android:icon="@drawable/ic_abstract"
+                android:title="@string/category_abstract"/>
+            <item
+                android:id="@+id/category_animals"
+                android:icon="@drawable/ic_animals"
+                android:title="@string/animals" />
+            <item
+                android:id="@+id/category_anime"
+                android:icon="@drawable/ic_anime"
+                android:title="@string/anime" />
+            <item
+                android:id="@+id/category_architecture"
+                android:icon="@drawable/ic_architecture"
+                android:title="@string/architecture"/>
+            <item
+                android:id="@+id/category_auto"
+                android:icon="@drawable/ic_auto"
+                android:title="@string/auto" />
+            <item
+                android:id="@+id/category_backgrounds"
+                android:icon="@drawable/ic_backgrounds"
+                android:title="@string/backgrounds" />
+            <item
+                android:id="@+id/category_brands"
+                android:icon="@drawable/ic_brand"
+                android:title="@string/brands"/>
+            <item
+                android:id="@+id/category_fantasy"
+                android:icon="@drawable/ic_fantasy"
+                android:title="@string/fantasy"/>
+            <item
+                android:id="@+id/category_games"
+                android:icon="@drawable/ic_games"
+                android:title="@string/games"/>
+            <item
+                android:id="@+id/category_landscape"
+                android:icon="@drawable/ic_landscape"
+                android:title="@string/landscape"/>
+            <item
+                android:id="@+id/category_sports"
+                android:icon="@drawable/ic_sports"
+                android:title="@string/sports"/>
+            <item
+                android:id="@+id/category_downloads"
+                android:icon="@mipmap/ic_download"
+                android:title="@string/saved_backdrops"/>
+        </menu>
+    </item>
+
+</group>
+
+</menu>
+

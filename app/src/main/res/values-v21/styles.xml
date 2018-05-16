@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+
+
+    <style name="TimePickerDialogTheme" parent="@style/Theme.AppCompat.DayNight.Dialog">
+        <item name="android:timePickerStyle">@style/TimePickerDialogStyle</item>
+    </style>
+
+    <style name="TimePickerDialogStyle" parent="@android:style/Widget.Material.TimePicker">
+
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+
+    <style name="TextAppearance44">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
